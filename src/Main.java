@@ -10,8 +10,8 @@ public class Main {
         qualquer = new Pessoa();
 
         //Descrição do formarto pessoa qualuer
-        qualquer.nome = "Raul";
-        qualquer.sobrenome = "Zito";
+        qualquer.nome = "Rita";
+        qualquer.sobrenome = "Lee";
         qualquer.falar();
 
         //Criar novos obj
@@ -23,12 +23,18 @@ public class Main {
         rainha = new Pessoa();
 
         //Definir forma do obj
-        rainha.nome = "Elisabeth";
-        rainha.sobrenome = "Cadavér";
+        rainha.nome = "Tiny";
+        rainha.sobrenome = "Tina";
 
         //Definir comportamento do obj
         rainha.falar();
-        System.out.println(rainha.falar("Alto"));
+        System.out.println(rainha.falar(" Alto"));
+        rainha.comer();
+
+
+
+
+
 
 
 
