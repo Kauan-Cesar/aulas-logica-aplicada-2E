@@ -3,17 +3,32 @@ public class Main {
         //Ala introdutoria de orientacao a objetos
         Pessoa anao = new Pessoa();
 
-        //Declaracao de objetos
+        //Declaração de obj
         Pessoa qualquer;
 
-        //Instanciaçõa do obj
+        //Instanciação do obj
         qualquer = new Pessoa();
 
         //Descrição do formarto pessoa qualuer
         qualquer.nome = "Raul";
-        qualquer.sobrenome = "Zato";
+        qualquer.sobrenome = "Zito";
         qualquer.falar();
 
+        //Criar novos obj
+        //Declarar obj
+        Pessoa rainha;
+        //É variavel(cima)
+
+        //Instanciar obj
+        rainha = new Pessoa();
+
+        //Definir forma do obj
+        rainha.nome = "Elisabeth";
+        rainha.sobrenome = "Cadavér";
+
+        //Definir comportamento do obj
+        rainha.falar();
+        System.out.println(rainha.falar("Alto"));
 
 
 

@@ -5,7 +5,13 @@ public class Pessoa {
     public String sobrenome;
     //Métodos de classe
     public void falar() {
-        System.out.printf("Gosto de crianca");
+
+        System.out.printf("Amo crianças");
+    }
+
+    //Sobrecarga do método falar()
+    public String falar(String volume){
+        return "Falei" + volume;
     }
 
 
